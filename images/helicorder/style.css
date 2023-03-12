@@ -1,0 +1,159 @@
+/* CSS Document */
+
+/*//////// UNDO BROWSER DEFAULTS ////////*/
+html {height:100%; margin-bottom:1px;}
+body, h1, h2, h3, h4, h5, h6, p, form, blockquote {margin:0; padding:0;}
+li, ul, ol {margin:5px; padding:5px; list-style:disc inside;}
+a img {border:none;}
+
+/*//////// LAYOUT - position, float, display, width, height, margin, padding, border, color, background ////////*/
+body {color:#333; background:#000;}
+#container {position:relative; width:96%; margin:5px auto 0 auto; padding:20px 0 0 0; min-width:760px; max-width:950px;}
+#banner {
+	height:123px;
+	margin-bottom:2px;
+	color:inherit;
+	background-color: #FFFFFF;
+	background-image: url(images/AEIClogo.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+#logo {
+	height:123px;
+	background-image: url(images/NAU_logo_250w.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#logo img {margin:10px 0 0 10px;}
+#topmenu {height:24px; margin-bottom:6px; padding:0 10px; color:#fff; background:#340410;}
+#breadcrumb {height:20px; margin-bottom:2px; padding:0 10px; color:#333333; background:#F0C060;}
+#content {
+	padding:10px;
+	color:inherit;
+	background-color: #FAECBD;
+	background-image: url(images/bkgd_grad.jpg);
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 190px;
+	text-align: justify;
+	font-size: 12px;
+}
+#sidemenu {
+	width:160px;
+	margin-bottom:10px;
+	color:#333333;
+	background-color: #FAECBD;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 25px;
+	padding-left: 10px;
+	top: 0px;
+}
+#left2 {
+	width:160px;
+	padding:10px;
+	margin-bottom:10px;
+	color:inherit;
+	background-color: #FAECBD;
+	text-align: left;
+}
+#right {
+	position:absolute;
+	top:175px;
+	right:0;
+	width:280px;
+	color:inherit;
+	background-color: #000000;
+}
+#left {
+	position:absolute;
+	top:205px;
+	left:0;
+	width:160px;
+	color:inherit;
+	background-color: #000000;
+}
+#contact {margin:0 0 10px 0; padding:10px; color:inherit; background:#FAECBD;}
+#trivia {margin:0 0 10px 0; padding:10px; color:inherit; background:#FAECBD;}
+#photo_gallery {margin:0 0 10px 0; padding:10px; color:inherit; background:#FAECBD;}
+#search {position:absolute; top:10px; right:0; width:300px; text-align:right;}
+#search input#cntnt01searchinput {width:220px;}
+#footer {
+	clear:both;
+	height:80px;
+	padding:10px;
+	color:#FFFFFF;
+	background-color: #340410;
+}
+/* IMAGES */
+.imageleft {padding-right:2%; padding-bottom:1%; float:left; width:auto;}
+.imageright {padding-left:1%; padding-bottom:1%; float:right; width:auto;}
+
+/*//////// TEXT - font-family, font-size, font-weight, font-style, margin, padding, border, line-height, text-align, text-decoration, color, background ////////*/
+body {font-family:verdana, sans-serif; font-size:11px; line-height:1.6;}
+h1 {font-size:14px; margin:0 0 6px 0;}
+h2 {font-size:12px; font-weight:bold; }
+h3 {font-size:10px; font-weight:bold; }
+p {margin:2px 0 10px 0;}
+.subheading {margin:0; font-weight:bold;} 
+#footer p {
+	font-size:10px;
+	margin:0;
+}
+.caption {
+	font-size: 11px;
+	font-style: italic;
+}
+/*//////// LINKS - font-weight, font-style, text-decoration, color, background ////////*/
+
+a:link {font-weight:bold; text-decoration:none; color:#303018; background:transparent;}
+a:visited {font-weight:bold; text-decoration:none; color:#606030; background:transparent;}
+#footer a:link, a:visited {text-decoration:underline; color:#C0A878; background:transparent;}
+#footer a:focus, a:hover, a:active {text-decoration:underline; color:#FFD068; background:transparent;}
+
+/*//////// MENU  ////////*/
+#sidemenu li, ul, ol {margin:0; padding:0; list-style:none;}
+
+#sidemenu li.sectionheader {width:auto; margin:0 0 2px 0; padding:12px 0 2px 0; border-bottom:1px solid #ccc; font-size:12px; font-weight:bold;}
+#sidemenu a:link {
+	display:block;
+	width:auto;
+	padding:1px 0;
+	font-size:11px;
+	text-decoration:none;
+	background:inherit;
+	color: #333333;
+}
+#sidemenu a:visited {color:#666666; background-color:#FAECBD;}
+#sidemenu a:focus, a:hover {
+	color:#333333;
+	background:#FFD068;
+}
+#sidemenu li.currentpage {color: #B58032; background:#FAECBD;}
+
+/*//////// TOPMENU ////////*/
+#topmenu ul {float:left; width:100%; background-repeat: no-repeat; background-position: center top;}
+#topmenu ul li {display:inline;}
+#topmenu ul li a {
+	float:left;
+	font-weight:bold;
+	text-decoration:none;
+	color:#fff;
+	background:inherit;
+	width: auto;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+}
+#topmenu ul li a:hover {color:inherit; background:#B58032;}
+#topmenu ul li.current a {color:inherit; background:#B58032;}
+
+/*//////// IE HACKS ////////*/
+* html body{text-align:center;}
+* html #container{text-align:left; width:950px;}
+.caption {
+	font-size: 11px;
+	font-style: italic;
+}
